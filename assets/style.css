@@ -22,6 +22,15 @@
 }
 
 .navbar ul li{
+    font-weight: bold;
     font-family: century;
-    font-size: 1.1rem   
+    font-size: 1.1rem
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 8px 25px;
+    transition: all;
 }
