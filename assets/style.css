@@ -45,11 +45,11 @@
 #home {
     display: flex;
     flex-direction: column;
-    background: url('') no-repeat center/cover;
+    background-color: rgb(0, 0, 0, 0.5);
     height: 840px;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 #home::before {
@@ -57,6 +57,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    background: url('./assets/images/main image.jpeg') no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
@@ -86,7 +87,7 @@
     border: 1px solid white;
     color: white;
     outline: none;
-    transition: .6s ease;
+    transition:all .6s ease;
 }
 
 .btn:hover {
@@ -205,56 +206,4 @@
     height: 80px;
     background-color: white;
     padding: 10px;
-}
-
-/* Contact section */
-#contact {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    background-color: rgb(204, 108, 52) ;
-    color: white;
-    padding: 20px;
-}
-
-.contact-content {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 20px 0px;
-}
-
-.input {
-    padding: 12px;
-    margin: 0px 15px 15px 0px;
-    width: 100%;
-    border: none;
-    outline: none;
-}
-
-#msg {
-    width: 100%;
-    padding: 10px;
-    margin: 0px 15px 15px 0px;
-    border: none;
-    outline: none;
-}
-
-#send {
-    padding: 10px;
-    width: 80px;
-    margin: 0px 15px 15px 0px;
-    border: none;
-    outline: none;
-}
-
-#send:hover {
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
 }
