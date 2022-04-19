@@ -7,7 +7,7 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url(./images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+	background-image: url(../assets/images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -65,9 +65,9 @@ nav ul li a:hover{
 }
 /*header */
 h1{
-	color: black;
+	color: white;
 	margin: 20px 0px 20px;
-	font-size: 75px;
+	font-size: 68px;
 }
 h3{
 	color: black;
@@ -159,9 +159,10 @@ button:hover{
 }
 .card{
 	height: 365px;
-	width: 335px;
+	width: 360px;
 	padding: 20px 35px;
-	background: #191919;
+	background: url(../assets/images/jackson-so-wUbNvDTsOIc-unsplash.jpg);
+    background-size:cover;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -177,18 +178,18 @@ button:hover{
 
 }
 h5{
-	color: white;
+	color: black;
 	font-size: 23px;
 	margin-bottom: 15px;
 }
 .pra p{
-	color: #fcfc;
+	color:black;
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
+	background-color:#1e1e1e;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -212,6 +213,7 @@ h5{
     justify-content: center;
     flex-direction: column;
     padding: 40px 0px;
+    
     background-color: #1e1e1e;
 }
 #contact form {
@@ -239,4 +241,77 @@ h5{
     background-color: #00e9a5;
     color: #000;
     text-transform: uppercase;
+}
+
+/*Socials section*/
+#socials {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+/*services section*/
+#socials {
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(204, 108, 52) 50%, rgb(29, 21, 21) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(204, 108, 52) ;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(204, 108, 52) ;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
 }
