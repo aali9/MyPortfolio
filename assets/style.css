@@ -16,6 +16,10 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	box-shadow: 5px 10px 30px rgb(0, 0,0,0.2);
+	position: fixed;
+	left:0;
+	
 	padding-top: 45px;
 	padding-left: 8%;
 	padding-right: 8%;
@@ -67,7 +71,7 @@ nav ul li a:hover{
 h1{
 	color: white;
 	margin: 20px 0px 20px;
-	font-size: 68px;
+	font-size: 55px;
 }
 h3{
 	color: black;
@@ -174,7 +178,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #f9004d;
+	color: #000000;
 
 }
 h5{
@@ -200,7 +204,7 @@ h5{
 }
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid #580721;
 	cursor: pointer;
 }
 
@@ -343,3 +347,19 @@ footer p:nth-child(2) {
     text-align: center;
     line-height: 26px;
 }
+
+/* Media Queries*/
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+	.column {
+	  width: 50%;
+	}
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
