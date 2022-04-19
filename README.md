@@ -7,7 +7,7 @@ My example portfolio includes a picture of me and a brief  description of my bac
 the portfolio is written HTML and CSS connection with the data base,
 
 
- <!------Github pages link------->
+ <!------Respority link------->
  
 https://github.com/aali9/MyPortfolio
 
