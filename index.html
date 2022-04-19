@@ -1,84 +1,105 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html>
 <head>
-
-  <meta charset="UTF-8">
-  <meta name = "viewport" content = "width-device-with, initial-scale=1.0">
-  <title> My Portfolio</title>
-  <link rel="stylesheet" href="./assets/style.css">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-       <li><a href= "#"> Home</a></li>
-       <li><a href= "#"> About Me</a></li>
-       <li><a href= "#"> Portfolio</a></li>
-       <li><a href= "#"> Services</a></li>
-       <li><a href= "#"> Contact Me</a></li>
-    </ul>
-  </nav>
-  <section id="home">
-    <div class="main">
-      <h1 class="heading">My name is <br>Anfal Ali</h1>
-      <button class="btn">
-        Scroll Down
-      </button>
-    </div>
-  </section>
-  <section id="about">
-    <h1 class="headings">ABOUT ME</h1>
-    <div id="pic">
-       <img src="./assets/images/mainimage.jpeg" alt="">
-      <div id="intro">
-        <div id="intro">
-            <h2>Anfal Ali</h2>
-            <p> My name is Anfal Ali </p>
-            <p>I am 27 years old and i am a BSc Hons Biomedical Graduate</p>
-            <p>I live in  Birmingham and a Tech Enthusiast</p>
-            <p> I started my journey of becoming a developer at a coding Bootcamp at the University of Birmingham </p>
-            <p> In my spare time i enjoy cooking and travelling</p>
-           <p>i love outdoor activities and going to the gym</p>
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="Portfolio">
-          <h1 class="heading" >My Projects</h1>
-          <div class="gallery"> 
-            <img src="./assets/images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg" alt=" ">
-            <img src="./assets/images/greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" alt=" ">
-            <img src="./assets/images/hitesh-choudhary-pMnw5BSZYsA-unsplash.jpg" alt=" ">
-            <img src="./assets/images/jackson-so-wUbNvDTsOIc-unsplash.jpg" alt=" ">
-            <img src="./assets/images/james-harrison-vpOeXr5wmR4-unsplash.jpg" alt=" ">
-            <img src="./assets/images/oskar-yildiz-gy08FXeM2L4-unsplash.jpg" alt=" ">
-      </div>
-     </section>
-    <section id="services">
-        <h1 class="headings">Social Media</h1>
-        <div class="row">
-            <a href="https://www.instagram.com/ina.alixx/" target="_blank" class="box">  
-                <img src="./assets/images/instagram.png" alt="insta logo">
-                <h1 class="headings"> Instagram</h1>
-                </a>
-                <a href="https://github.com/aali9/" target="_blank" class="box">
-                <img src="./assets/images/GitHub-Logo.png" alt="github  logo">
-                <h1 class="headings"> Github</h1>
-                </a>
-                <a href="https://uk.linkedin.com/" target="_blank" class="box">  
-                    <img src="./assets/images/Linkedin.png" alt="Linkedin">
-                    <h1 class="headings"> Linkdin</h1>
-                </a>
-          </section>
-          <section id="contact">
-            <div class="contact-content">
-              <h1 class="headings">CONTACT ME</h1>
-              <form action="" class="form"></form>
-              <input type="text" name="name" class="input" placeholder="Enter Your Name">
-              <input type="email" name="email" class="input" placeholder="Enter Your Email">
-              <textarea name="" id="msg" cols="4" rows="5" placeholder="Enter Your Message"></textarea>
-              <input type="submit" value="send" id="send">
-            </div>
-          </section>
-        </body>
-        <html>
+	<!----hero Section start---->
 
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Code With<span>Anfal</span></h2>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#About">About Us</a></li>
+				<li><a href="#Projects">Projects</a></li>
+				<li><a href="#Contact">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Anfal <span>Ali</span></h1>
+			<h3>I am a software engineer.</h3>
+			<button class="btn">
+				<p>Hire Me</p>
+			  </button>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="assets/images/mainimage.jpeg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am 27 years old and i am a BSc Hons Biomedical Graduate.I live in  Birmingham and a Tech Enthusiast.I started my journey of becoming a developer at a coding Bootcamp at the University of Birmingham. In my spare time i enjoy cooking and travelling. i love outdoor activities and going to the gym</p>
+            	<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+	<!-----Projects section start----------->
+	<div class="Projects">
+		<div class="title">
+			<h2>My Projects</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Click here to see my web development projects</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>App Development</h5>
+				<div class="pra">
+					<p>Click here to see more App Development projects</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Click here to see web development projects</p>
+                    <p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<section id="contact">
+		<div class="contact-content">
+		  <div class="work-heading">
+			<h1>CONTACT ME</h1>
+			<p>For futher enquiries</p>
+			<form>
+			<input type="text" name="name" class="input" placeholder="Enter Your Name">
+			<input type="email" name="email" class="input" placeholder="Enter Your Email">
+			<textarea name="" id="msg" cols="4" rows="5" placeholder="Enter Your Message"></textarea>
+			<input type="submit" value="send" id="send">
+			</form>
+		</div>
+	  </section>
+	</footer>
+</body>
+</html>
