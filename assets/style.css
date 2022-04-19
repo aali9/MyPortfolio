@@ -48,8 +48,15 @@ nav ul li{
 nav ul li a{
 	color: green;
 	text-decoration: none;
-	font-weight: bold;
-	text-transform: capitalize;
+	font-weight: 500;
+	text-transform: uppercase;
+	height: 20px;
+	line-height: 20px;
+	margin: 3px;
+	padding: 0px 17px;
+	letter-spacing: 1px;
+	transition: 0.6s ease;
+
 }
 nav ul li a:hover{
 	border-bottom: 2px solid #00e9a5;
