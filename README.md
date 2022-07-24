@@ -1,15 +1,23 @@
 # MyPortfolio
 
-Anfal's simple portfolio
+Anfal's  portfolio
 
-My example portfolio includes a picture of me and a brief  description of my background, i also included links to my socials and a link attached to previous work i submitted. at the bottom theres a contact box to feel free to send whenever u want.
+# Requirements
 
-the portfolio is written HTML and CSS connection with the data base,
+
+Updated portfolio featuring Project 1 and two exemplary homework assignments.
+
+
+Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+
+
+Updated resume
+
+
+Updated LinkedIn profile
 
 
  <!------Respority link------->
- 
-https://github.com/aali9/MyPortfolio
+ https://github.com/aali9/UpdatedPortfolio
 
  <!------Webpage Url link------->
-  https://aali9.github.io/MyPortfolio/
